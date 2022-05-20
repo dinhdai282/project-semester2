@@ -1,0 +1,57 @@
+:root {
+    --light-gray: rgb(0, 0, 0);
+    --primary-color: #f500b8;
+    --bg-primary-color: #fdc5ef;
+    --border: #2b303218;
+    --text-white: #ffff;
+    --text-color: #ff686b;
+    --pacifico: "Pacifico", cursive;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+    --lato: "Lato", sans-serif;
+    --lobster: "Lobster", cursive;
+}
+
+/* login */
+.btn-login{
+    background-color: var(--bg-primary-color);
+    border-radius: 5px;
+    border: 1px solid var(--bg-primary-color);
+    height: 40px;
+    width: 400px;
+    transition: 0.5s;
+}
+
+.btn-login:hover{
+    background-color: #eb95d5d8;
+}
+
+.btn-login:active{
+    border: 3px solid #db41b5;
+}
+
+/*border*/
+.border-primary-color{
+    border: 2px solid var(--primary-color);
+}
+
+/*create-form*/
+.btn-create{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: 3px solid white;
+    padding: 5px;
+    color: white;
+}
+
+.btn-create:hover{
+    background-color: #970172d8;
+}
+
+.btn-create:active{
+    border: 3px solid #db41b5;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}

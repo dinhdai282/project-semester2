@@ -1,0 +1,18 @@
+:root {
+    --light-gray: rgb(0, 0, 0);
+    --primary-color: #f500b8;
+    --bg-primary-color: #fdc5ef;
+    --border: #2b303218;
+    --text-white: #ffff;
+    --text-color: #ff686b;
+    --pacifico: "Pacifico", cursive;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+    --lato: "Lato", sans-serif;
+    --lobster: "Lobster", cursive;
+}
+
+.color{
+    background-color: var(--primary-color);
+}
